@@ -26,5 +26,5 @@ if szalag_hossz < szukseges_szalag_meterben:
 else:
     print("A rendelkezésre álló szalag elegendő")
 
-    festekszamlalo()
+festekszamlalo()
 
