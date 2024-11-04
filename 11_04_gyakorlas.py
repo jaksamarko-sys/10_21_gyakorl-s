@@ -1,20 +1,28 @@
 """1. Egyszerű számbekérő
 Kérj be egy számot a felhasználótól, és döntsd el, hogy páros vagy páratlan. Írd ki az eredményt!”””
 """
-szam = int(input("Kérlek írj be egy számot: " ))
-if szam % 2 == 0:
-    print("Ez a szám páros")
-elif szam % 2 != 0:
-    print("Ez a szám páratlan")
-else:
-    print("Kérlek számot írj be")
+def elso_feladat():
+    szam = int(input("Kérlek írj be egy számot: " ))
+    if szam % 2 == 0:
+        print("Ez a szám páros")
+    elif szam % 2 != 0:
+        print("Ez a szám páratlan")
+    else:
+        print("Kérlek számot írj be")
 
+# elso_feladat()
 """
 2. Összegszámítás
 Kérj be egy egész számot, és számítsd ki az 1-től a megadott számig terjedő egész számok összegét.
 """
+def masodik_feladat():
+    sum_ = 0
+    num = int(input("Kérlek adj meg egy egész számot: "))
+    for i in range(1,num+1):
+        sum_ += i
+    print(sum_)
 
-
+# masodik_feladat()
 """
 3. Számok listázása és összegzése
 Írj egy programot, amely bekér  n számot a felhasználótól, majd egy while ciklussal megkérdezi a felhasználót, hogy szeretne-e újabb számot megadni. Addig folytassa a program a számok bekérését, amíg a felhasználó igennel válaszol. A program végén jelenítse meg a bekért számok összegét.
@@ -22,6 +30,9 @@ b) jelenítse meg a bekért számokat (lista használata)
 
 
 """
+sum_ = 0
+n = int(input("Kérlek írj be egy számot: "))
+while
 
 
 """
